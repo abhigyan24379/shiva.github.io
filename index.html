@@ -1,0 +1,73 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: black;
+    }
+    div{
+
+      align-items: center;
+      text-align: center;
+      width: 50%;
+      margin-left: 25%;
+      border-image-width: 100%;
+      margin-top: 100px;
+      
+    }
+      h1{
+        text-transform: uppercase;
+        color: rgb(37, 43, 72);
+        font-family:Baskerville ;
+        
+
+      }
+      p{
+        color: rgb(37, 43, 72);
+        font-size: 18pt;
+      }
+      img{
+        
+        border: 5px solid goldenrod;
+        width: 100%
+
+      }
+      .open{
+         color: aquamarine;
+         text-align: left;
+      }
+  </style>
+</head>
+<body>
+<div>
+  <img src="pxfuel.jpg" atl="lord shiva"/>
+  <h1>
+   lord shiva
+  </h1>
+  <p> lord shivb is the only destroyer and the creator.</p>
+  <p>research:-</p>
+  <ol class="open"><li><a href="https://en.wikipedia.org/wiki/Shiva" >more on lord shiva</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Bhairava">on bhairav</a></li>
+  </ol> 
+</div>
+  
+</body>
+</html>
